@@ -34,7 +34,7 @@
     border-radius: 5px;
 }
 
-.name_input, .topic_input, .message_input {
+.name_input, .topic_input, .message_input, .phone_input {
     margin-bottom: 10px;
     padding: 0 5px;
     height: 30px;
