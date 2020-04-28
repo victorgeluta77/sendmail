@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.send_mail{
+    /* border: 2px solid green; */
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.send_mail_header{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(231, 235, 29);
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px #000000;
+}
+.send_form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.name_input, .topic_input, .message_input {
+    margin-bottom: 10px;
+    padding: 0 5px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 2px 2px #000000;
+}
+
+.form_input{
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(231, 235, 29);
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px #000000;
+    font-weight: 700;
+    transition: 0.5s all;
+}
+.form_input:hover {
+    background-color: grey;
+}

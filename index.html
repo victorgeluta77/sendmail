@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Send email useing emailjs service</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js'></script> -->
+        <script type='text/javascript' src='./node_modules/emailjs-com/dist/email.min.js'></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("user_hA57KmgQRmlpPbIhlLaJ1");
+            })();
+          </script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <main class="send_mail">
+            <div class="send_mail_header">
+                <p>Send Mail</p>
+            </div>
+            <form action="" class="send_form" id="form_send_mail">
+                <input type="text" name="topic" id="topic_input" class="topic_input" placeholder="Your topic ...">
+                <input type="email" name="email" id="name_input" class="name_input" placeholder="example@gmail.com">
+                <textarea type="text" name="message" id="message_input" class="message_input" placeholder="Your message .."></textarea>
+                <input type="submit" value="send" class="form_input form_input_send">
+            </form>
+
+        </main>
+
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
